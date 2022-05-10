@@ -940,6 +940,9 @@ AWS Cloud.</p>
 <div class="paragraph">
 <p>As shown in figures 1 and 2, the Quick Start sets up the following:</p>
 </div>
+<div class="paragraph">
+<p>The Quick Start sets up the following:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -949,7 +952,7 @@ AWS Cloud.</p>
 <p>A virtual private cloud (VPC) configured with public and private subnets, according to AWS best practices, to provide you with your own virtual network on AWS.*</p>
 </li>
 <li>
-<p>An external Application Load Balancer (ALB) for routing traffic to Sitecore instances in the private subnet.</p>
+<p>An external Application Load Balancer for routing traffic to Sitecore instances in the private subnets.</p>
 </li>
 <li>
 <p>In the public subnets:</p>
@@ -987,7 +990,7 @@ AWS Cloud.</p>
 <p>AWS Systems Manager to store parameter data and the AMI automation build document.</p>
 </li>
 <li>
-<p>Amazon Simple Storage Service (Amazon S3) artifacts bucket for storing static data.</p>
+<p>Amazon Simple Storage Service (Amazon S3) bucket for storing static data.</p>
 </li>
 <li>
 <p>Amazon CloudWatch for monitoring deployed services.</p>
@@ -996,7 +999,7 @@ AWS Cloud.</p>
 <p>AWS Secrets Manager and AWS Certificate Manager (ACM) for access control.</p>
 </li>
 <li>
-<p>A Lambda function to convert and import the certificate into ACM.</p>
+<p>A Lambda function to convert and import the Sitecore client certificate into ACM.</p>
 </li>
 <li>
 <p>Amazon Route 53 private hosted zone for internal Domain Name System (DNS) lookups within the VPC.</p>
@@ -1374,7 +1377,7 @@ existing license by uploading a new Sitecore license into the S3 bucket and pref
 </html>
 <!--
 repo commit:
-5c12c450a3872f4a97a2d4d2721d359f8d7dbc69
+c1df85ed5d3273879cb01aecf297e2971f64715d
 
 submodule config:
  4ef16b77d6020a462feba269030c80f9088e6d1b docs/boilerplate (heads/main)
