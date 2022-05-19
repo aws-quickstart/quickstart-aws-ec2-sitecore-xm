@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: 'Deploys Sitecore into an existing VPC  (qs-1qppe684j)'
+Description: 'Deploys Sitecore into an existing VPC  (qs-1t2fuci8a)'
 Metadata:
   QuickStartDocumentation:
     EntrypointName: Deploy into an existing VPC
